@@ -19,8 +19,6 @@ chmod 700 /home/$adminuser/.ssh -R;
 mv $installpath/keys/ /home/$adminuser/keys/;
 # Move the install log
 mv $installpath/install.log /home/$adminuser/install.log;
-# Prompt user that all is done
-echo "Hardening complete!";
 # Remove the install directory
 #rm -rf $installpath/;
 # Reboot the server

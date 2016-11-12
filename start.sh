@@ -88,6 +88,9 @@ do
 
       # Begin Installation
       $installpath/harden/000_start.sh 2> $installpath/install.log;
+
+      # Prompt user that all is done
+      echo "Hardening complete, select 1 to Install Applications or 3 to Cancel";
     ;;
     "Cancel")
       break
